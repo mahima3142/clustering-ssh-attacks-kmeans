@@ -1,2 +1,7 @@
 # Clustering SSH Attacks using K-Means
-Applied the K-Means clustering algorithm to segregate different types of attacks during Secure Shell (SSH) sessions using network packet capture (PCAP) files. The project involved determining an optimal value of K and grouping similar network traffic based on cluster assignments. Technologies used: Java, WEKA
+
+• Analyzed SSH network traffic from PCAP files to identify potential attack patterns using unsupervised learning.
+• Extracted protocol-level features such as packet length, time, and protocol type from captured SSH sessions.
+• Applied K-Means clustering in WEKA to group similar traffic behaviors and differentiate normal versus anomalous SSH activity.
+• Visualized cluster assignments to interpret traffic patterns and understand attack characteristics.
+• Tools & Technologies: WEKA, Java, PCAP analysis
